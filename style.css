@@ -1,0 +1,133 @@
+/* This is the header part - Start*/
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+.header-logo{
+    font-family: "Roboto";
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 600;
+    padding: 6px;
+}
+
+.navigation{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: row;
+    gap: 0px 24px;
+    padding: 6px;
+    list-style-type: none;
+}
+/* This is the header part - End*/
+
+/* This is the hero part - Start*/
+
+.text_photo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    gap: 24px 0px;
+}
+
+.header_withtext{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 50%;
+    gap: 12px 0px;
+    padding: 24px;
+}
+
+.hero{
+    font-family: "Robot";
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+
+}
+
+.text{
+    font-family: "Robot";
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 400;
+
+}
+
+.signup{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    padding: 6px;
+    width: 100px;
+    border-radius: 5%;
+
+}
+
+
+.photo{
+    display: flex;
+    padding: 24px;
+}
+
+/* This is the hero part - End*/
+/* This is the 4 boxes part - Start*/
+.fourboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9faf8;
+    padding: 12px;
+}
+
+.heading-ff{
+
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    padding: 12px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 12px;
+    gap: 0px 24px;
+}
+
+.box{
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 15%;
+    border-width: 4px;
+    width: 150px;
+    height: 150px;
+    background-color: #f9faf8;
+    margin-bottom: 8px;
+}
+
+.subtextbox{
+    color:#1f2937;
+    font-family: "Roboto";
+    font-size: 12px;
+    text-transform: lowercase;
+    text-align: center;
+    max-width: 150px;
+
+}
+/* This is the 4 boxes part - End*/
