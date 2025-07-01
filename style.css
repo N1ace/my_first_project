@@ -100,6 +100,7 @@
     align-items: center;
     background-color: #f9faf8;
     width: 100%;
+    height: 360px;
     padding: 12px;
     margin: 0px;
 }
@@ -153,6 +154,7 @@
     align-items: center;
     height: 360px;
     padding: 36px;
+    padding-top: 48px;
 }
 
 .quote{
@@ -175,7 +177,7 @@
 
 }
 /* This is testimonial block End section */
-
+/*This is CTA part Start section */
 .call-block{
     background-color: #f9faf8;
     display: flex;
@@ -183,8 +185,6 @@
     align-items: center;
     height: 360px;
     width: 100%;
-    margin-top: 64px;
-
 }
 
 .call{
@@ -226,4 +226,26 @@
     border-radius: 4px;
     color: #f9faf8;
     padding: 8px;
+}
+
+/*This is CTA part End section */
+
+/*This is Footer part Start section */
+
+.footer{
+    background-color: #1f2937;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-footer{
+
+    color: #f9faf8;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: medium;
+    font-weight: 500;
 }
